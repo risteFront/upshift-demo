@@ -1,0 +1,70 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Table",
+      "price": 12,
+      "stateId": 4,
+      "categoryId": 1,
+      "stock": true,
+      "picture": "https://static.turbosquid.com/Preview/001284/738/Q6/_Z.jpg",
+      "description": "Fusce bibendum nec arcu vitae auctor. Donec fringilla eget turpis et tincidunt. Suspendisse ultricies erat diam. Aenean elementum porttitor diam ut consectetur. Ut egestas libero iaculis, suscipit velit sit amet, egestas dui. Donec aliquam est eget urna blandit aliquet. Donec dictum ex ut nisi sodales egestas."
+    },
+    {
+      "id": 2,
+      "title": "Light",
+      "price": 5,
+      "stateId": 3,
+      "categoryId": 2,
+      "stock": false,
+      "picture": "https://cgaxisimg.ams3.cdn.digitaloceanspaces.com/2014/08/cgaxis_models_16_431.jpg",
+      "description": "Fusce bibendum nec arcu vitae auctor. Donec fringilla eget turpis et tincidunt. Suspendisse ultricies erat diam. Aenean elementum porttitor diam ut consectetur. Ut egestas libero iaculis, suscipit velit sit amet, egestas dui. Donec aliquam est eget urna blandit aliquet. Donec dictum ex ut nisi sodales egestas."
+    },
+    {
+      "id": 3,
+      "title": "Chair",
+      "price": 10,
+      "stateId": 1,
+      "categoryId": 1,
+      "stock": false,
+      "picture": "https://netrinoimages.s3.eu-west-2.amazonaws.com/2017/10/02/470304/163319/simple_chair_3d_model_c4d_max_obj_fbx_ma_lwo_3ds_3dm_stl_1815360_o.png",
+      "description": "Fusce bibendum nec arcu vitae auctor. Donec fringilla eget turpis et tincidunt. Suspendisse ultricies erat diam. Aenean elementum porttitor diam ut consectetur. Ut egestas libero iaculis, suscipit velit sit amet, egestas dui. Donec aliquam est eget urna blandit aliquet. Donec dictum ex ut nisi sodales egestas."
+    }
+  ],
+  "states": [
+    {
+      "id": 1,
+      "name": "Ohio",
+      "tax": 0.3
+    },
+    {
+      "id": 2,
+      "name": "Utah",
+      "tax": 0.15
+    },
+    {
+      "id": 3,
+      "name": "Texas",
+      "tax": 0.2
+    },
+    {
+      "id": 4,
+      "name": "Michigan",
+      "tax": 0.5
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Furniture "
+    },
+    {
+      "id": 2,
+      "name": "Lightning"
+    },
+    {
+      "id": 3,
+      "name": "Other"
+    }
+  ]
+}
